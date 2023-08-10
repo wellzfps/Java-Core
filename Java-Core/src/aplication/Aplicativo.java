@@ -10,8 +10,8 @@ public class Aplicativo {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		Triangle X = new Triangle();
-		Triangle Y = new Triangle();
+		Triangle X = new Triangle(" X");
+		Triangle Y = new Triangle(" Y");
 		
 		//Interação com o triângulo X
 		System.out.print("Informe o lado A do triângulo X: ");
@@ -31,7 +31,12 @@ public class Aplicativo {
 		Y.ladoC = sc.nextDouble();
 		double areaDeY = Y.area();
 		
-		System.out.printf("Área de X: %.2f%n ", areaDeX);
+		//Implementação do tipo do triangulo
+		
+		X.typeTriangle();
+		Y.typeTriangle();
+		
+		System.out.printf("Área de X: %.2f%n", areaDeX);
 		System.out.printf("Área de Y: %.2f ", areaDeY);
 		
 		
