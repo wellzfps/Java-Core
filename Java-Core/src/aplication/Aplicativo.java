@@ -32,12 +32,10 @@ public class Aplicativo {
 		double areaDeY = Y.area();
 		
 		//Implementação do tipo do triangulo
-		
-		X.typeTriangle();
-		Y.typeTriangle();
-		
 		System.out.printf("Área de X: %.2f%n", areaDeX);
+		X.typeTriangle();
 		System.out.printf("Área de Y: %.2f ", areaDeY);
+		Y.typeTriangle();
 		
 		
 		sc.close();
