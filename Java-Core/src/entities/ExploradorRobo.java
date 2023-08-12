@@ -15,7 +15,7 @@ public class ExploradorRobo {
 	}
 	
 	public void exibirAtributos( ) {
-		System.out.println("Nome do robô" + Name);
+		System.out.println("Nome do robô: " + Name);
 		System.out.println("Status: " + status);
 		System.out.println("Velocidade: " + velocidade);
 		System.out.println("Temperatura: " + temperatura);
