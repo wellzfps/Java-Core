@@ -57,6 +57,30 @@ public class Listas {
 		// Listar a posição de um elemento
 		System.out.println("Index de Inglês: " + lista.indexOf("Inglês"));
 		
+		System.out.println("-----------------------------------------------");
+		System.out.println("Filtro com predicado e expressão Lambda");
+		
+		// Trabalhar com predicado 
+		// remover todos os  elementos que iniciem com a letra G.
+		// Para remover um elemento utilizando predicado, usamos o método removeif
+		
+		lista.removeIf(disciplina -> disciplina.charAt(0) == 'G'); 
+		// Remover toda String disciplina, tal que disciplina na posição 0 seja == 'G'
+		
+		for (String materias : lista) {
+			System.out.println(materias);
+		}
+		
+		lista.removeIf(materias -> materias.charAt(4) == 'm');
+		lista.removeIf(materias -> materias.charAt(4) == 'r');
+		System.out.println("-------------------------------------------------------------");
+		for (String materias : lista) {
+			System.out.println(materias);
+		}
+		
+		
+		
+		
 		
 	}
 
