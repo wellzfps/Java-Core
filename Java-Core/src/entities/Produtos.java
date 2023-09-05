@@ -1,9 +1,9 @@
 package entities;
 
 public class Produtos {
-	private double preco;
-	private String nome;
-	private int quantidade;
+	public double preco;
+	public String nome;
+	public int quantidade;
 	
 	/**
 	 *  Gets e Sets
