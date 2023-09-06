@@ -22,7 +22,7 @@ public class Conta {
 	/**
 	 * o Saldo da conta 
 	 * */
-	private Double saldoConta;
+	protected Double saldoConta;
 	
 	public Conta() {
 		/**
